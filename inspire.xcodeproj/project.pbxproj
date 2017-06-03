@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21736F631EE300D400D099AA /* authors.csv in Resources */ = {isa = PBXBuildFile; fileRef = 21736F601EE300D400D099AA /* authors.csv */; };
+		21736F651EE300D400D099AA /* quotes.csv in Resources */ = {isa = PBXBuildFile; fileRef = 21736F621EE300D400D099AA /* quotes.csv */; };
+		21736F671EE3020900D099AA /* keywords.csv in Resources */ = {isa = PBXBuildFile; fileRef = 21736F661EE3020900D099AA /* keywords.csv */; };
 		21C63ED11EDEEC7D00A56FFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C63ED01EDEEC7D00A56FFF /* AppDelegate.swift */; };
 		21C63ED31EDEEC7D00A56FFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C63ED21EDEEC7D00A56FFF /* ViewController.swift */; };
 		21C63ED61EDEEC7D00A56FFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21C63ED41EDEEC7D00A56FFF /* Main.storyboard */; };
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21736F601EE300D400D099AA /* authors.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = authors.csv; path = data/authors.csv; sourceTree = "<group>"; };
+		21736F621EE300D400D099AA /* quotes.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = quotes.csv; path = data/quotes.csv; sourceTree = "<group>"; };
+		21736F661EE3020900D099AA /* keywords.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = keywords.csv; path = data/keywords.csv; sourceTree = "<group>"; };
 		21C63ECD1EDEEC7D00A56FFF /* inspire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = inspire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21C63ED01EDEEC7D00A56FFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21C63ED21EDEEC7D00A56FFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,9 +82,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21736F5F1EE300BC00D099AA /* data */ = {
+			isa = PBXGroup;
+			children = (
+				21736F661EE3020900D099AA /* keywords.csv */,
+				21736F601EE300D400D099AA /* authors.csv */,
+				21736F621EE300D400D099AA /* quotes.csv */,
+			);
+			name = data;
+			sourceTree = "<group>";
+		};
 		21C63EC41EDEEC7D00A56FFF = {
 			isa = PBXGroup;
 			children = (
+				21736F5F1EE300BC00D099AA /* data */,
 				21C63ECF1EDEEC7D00A56FFF /* inspire */,
 				21C63EE71EDEEC7D00A56FFF /* inspireTests */,
 				21C63EF21EDEEC7D00A56FFF /* inspireUITests */,
@@ -240,7 +257,10 @@
 			files = (
 				21C63EDE1EDEEC7D00A56FFF /* LaunchScreen.storyboard in Resources */,
 				21C63EDB1EDEEC7D00A56FFF /* Assets.xcassets in Resources */,
+				21736F671EE3020900D099AA /* keywords.csv in Resources */,
+				21736F651EE300D400D099AA /* quotes.csv in Resources */,
 				21C63ED61EDEEC7D00A56FFF /* Main.storyboard in Resources */,
+				21736F631EE300D400D099AA /* authors.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +536,7 @@
 				21C63EFA1EDEEC7D00A56FFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21C63EFB1EDEEC7D00A56FFF /* Build configuration list for PBXNativeTarget "inspireTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +545,7 @@
 				21C63EFD1EDEEC7D00A56FFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21C63EFE1EDEEC7D00A56FFF /* Build configuration list for PBXNativeTarget "inspireUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +554,7 @@
 				21C63F001EDEEC7D00A56FFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
